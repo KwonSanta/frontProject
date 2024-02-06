@@ -73,7 +73,7 @@
 .right {
     position: absolute;
     top: 50px; left: 250px;
-    width: 1500px; height: 850px;
+    width: 1400px; height: 850px;
     border: 3px solid red;
     padding: 50px;
     font-size: 1.5rem;

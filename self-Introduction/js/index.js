@@ -20,6 +20,9 @@ $(function() {
 
         // 4번째 네비게이션 - 첫 서브메뉴 클릭시
         gno = $(this).index();
+
+        // 서브메뉴 클릭시 첫번째 small_pic0을 디폴트 화면으로 표시
+        $(".right4_pic").attr("src", "img/menu" + gno + "_img0.jpg");
         for (i=0; i<5; i++) {
             $(".pic" + i).attr("src", "img/menu" + gno + "_img" + i + ".jpg");
         }        
